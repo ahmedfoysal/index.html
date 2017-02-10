@@ -1,0 +1,262 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	/*border: 2px solid red;*/
+}
+.header{
+	/*border: 2px solid red;*/
+	background-color: rgb(34, 85, 165);
+	height: 80px;
+	/*margin-bottom: 2px;*/
+	overflow: hidden;
+}
+.slider{
+	/*border: 2px solid red;*/
+	height: 6 00px;
+	width: auto;
+	background: linear-gradient(#FDFDFE, #D4D9E9);
+}
+.logo{
+    /*border: 2px solid red;*/
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+	margin-left: 80px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+form{
+
+	display: inline-block;
+	float: right;
+	margin-right: 80px;
+}
+
+.username{
+    /*border: 2px solid red;*/
+    float: left;
+	margin-top: 12px;
+	color: white;
+}
+.password{
+	/*border: 2px solid red;*/
+	float: left;
+	margin-top: 12px;
+	margin-left: 10px;
+	color: white;
+}
+.button
+{
+	/*border: 2px solid red;
+	*/float: right;
+	margin-top: 34px;
+	margin-left: 20px;
+	margin-right: 120px;
+	width: 50px;
+	height: 20px;
+	color: white;
+	background-color: #4267B2;
+	/*background-color: #3B5998;*/
+	border: 1px solid #29487D;
+	cursor: pointer;
+	font-family: Helvetica;
+	font-size: 10px;
+
+}
+.button:hover{
+	background-color: #3B5998;
+}
+label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+}
+.username input{
+	width: 140px;
+	height: 16px;
+	margin-top: 4px;
+}
+
+.password input{
+	width: 140px;
+	height: 16px;
+	margin-top: 4px;
+}
+.password p{
+	margin-top: 3px;
+	color: #9CABC6;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.left{
+	/*border: 2px solid red;*/
+	float: left;
+	margin-left: 170px;
+	padding-top: 10px;
+}
+.right{
+	/*border: 2px solid red;*/
+	display: inline-block;
+	margin-left: 79px;
+	padding-left: 10px;
+	height: 600px;
+}
+.left h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	line-height: 0px;
+	color: #0E385F;
+	margin-top: 35px;
+	margin-bottom: 0;
+	padding: 0;
+}
+.left img{
+	margin-bottom: 50px; 
+	position: 
+}
+.right h1{
+	font-size: 35px;
+	/*border: 2px solid;*/
+	font-family: Arial;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.right h5{
+	font-size: 19px;
+	/*border: 2px solid;*/
+	font-family: Arial;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 22px;
+	color: #333333;
+}
+.firstname{
+	width: 180px;
+	height: 35px;
+	font-size: large;
+	margin-right: 6px; 
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.lastname{
+	width: 180px;
+	height: 35px;
+	font-size: large;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.Email{
+	width: 380px;
+	height: 35px;
+	font-size: large;
+	margin: 10px 0px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.Re-enter{
+	width: 380px;
+	height: 35px;
+	font-size: large;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.newpass{
+	width: 380px;
+	height: 35px;
+	font-size: large;
+	margin: 10px 0;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+.birthday{
+	font-size: 19px;
+	margin-bottom: 8px;
+	font-family: Arial;
+	color: #1D2129;
+}
+#select{
+	height: 28px;
+	width: 60px;
+	padding-left: 5px;
+}
+
+.select{
+	height: 28px;
+	width: 70px;
+	padding-left: 5px;
+}
+
+.thread{
+	float: right;
+	font-size: 11px;
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: 0px;
+	width: 150px; 
+	margin-right: 25px;
+	font-family: Arial; 
+	color: #36589B;
+}
+
+.thread:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.gender{
+	color: #1D2129;
+	font-family: Arial;
+	font-size: 19px;
+}
+
+.signup{
+	width: 320px;
+	font-size: 11px;
+	font-family: Arial;
+	color: #777A82;
+	margin-top: 13px;
+	line-height: 13px; 
+	margin-bottom: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #36589B;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.create{
+	background: linear-gradient(#66AC54, #578943);
+	height: 40px;
+	width: 200px;
+	border: .5px solid #2C5115;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: Verdana;
+	padding-bottom: 5px;
+	margin-top: 0;
+	cursor: pointer;
+}
+
+.create:hover{
+	background: linear-gradient(#73B95F, #578843)
+}
+
+
